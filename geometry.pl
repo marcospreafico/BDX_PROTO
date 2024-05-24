@@ -126,8 +126,8 @@ sub make_main
     my $par2 = 200.;
     my $par3 = 400.;
     $detector{"dimensions"}  = "$par1*cm $par2*cm $par3*cm";
-    #$detector{"material"}    = "G4_AIR";
-    $detector{"material"}    = "KryptoniteLight";
+    $detector{"material"}    = "G4_AIR";
+    #$detector{"material"}   = "KryptoniteLight"; 
     print_det(\%configuration, \%detector);
 }
 
